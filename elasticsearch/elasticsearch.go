@@ -42,7 +42,7 @@ const (
 	pluginType = plugin.CollectorPluginType
 
 	// Timeout duration for HTTP connection
-	timeout = 5 * time.Second
+	timeout = 30 * time.Second
 
 	esHost = "server"
 	esPort = "port"
